@@ -8,6 +8,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
+# Error handling
+app.config['DEBUG'] = True
+
 # Using decorators to link the function to a Url
 
 # static route
